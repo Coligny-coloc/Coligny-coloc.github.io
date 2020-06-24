@@ -91,6 +91,7 @@ h1,h2{
     margin-top: 2%;
 }
 .h1_acc{
+    padding-top: 13%;
     line-height: 200%;
     font-size: 80px;
     color:blue;
@@ -99,7 +100,7 @@ h1,h2{
     background-image: url(./images/bg.JPG);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size:cover;
     height: 100%;
 }
 .arr_acc{
@@ -109,13 +110,16 @@ h1,h2{
     font-size: 300%;
 }
 .presentation div{
-    float: left;
-    width: 50%;
+    width: 100%;
     margin-right: 5%;
+}
+iframe{
+    float: right;
+    margin-left: 1%;
 }
 #RDC,#Ie,#IIe{
     display: flow-root;
-    margin-top: 2%;
+    margin: 2%;
 }
 #locUnique{
     margin-right: 5%;
@@ -144,7 +148,7 @@ h1,h2{
    .overlay-image .image {
     display: block;
     width: auto;
-    height: 200px;
+    height: 10em;
    }
    /* Original text overlay */
    .overlay-image .text {
@@ -162,7 +166,7 @@ h1,h2{
 .overlay-image .hover {
     position: absolute;
     bottom: 0;
-    height: 200px;
+    height: 10em;
     width: 70px;
     opacity: 0;
     transition: .5s ease;

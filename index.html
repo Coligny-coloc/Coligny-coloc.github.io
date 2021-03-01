@@ -1,234 +1,538 @@
 <!DOCTYPE html>
-<html>
-<meta charset="utf-8" />
-
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <title>Votre logement à Roubaix</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: EstateAgency
+    Theme URL: https://bootstrapmade.com/real-estate-agency-bootstrap-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
 </head>
 
 <body>
-    <div class="accueil">
-        <h1 class="h1_acc">Votre logement à Roubaix</br> à compter de la rentrée 2020</h1>
-        <h1 class="arr_acc"><a href="#presentation">⇓</a></h1>
-    </div>
-    <nav>
-        <ul>
-            <li class="deroulant"><a href="#RDC">L'appartement &ensp;</a>
-                <ul class="sous">
-                    <li><a href="#RDC">Rez-De-Chaussée</a></li>
-                    <li><a href="#Ie">Premier Etage</a></li>
-                    <li><a href="#IIe">Deuxième Etage</a></li>
-                </ul>
-            </li>
-            <li class="deroulant"><a href="#locUnique">Formules Locative &ensp;</a>
-                <ul class="sous">
-                    <li><a href="#locUnique">Location unique</a></li>
-                </ul>
-            </li>
-            <li><a href="#contact">Contact</a></li>
+  <!--/ Nav Star /-->
+  <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+    <div class="container">
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <a class="navbar-brand text-brand" href="index.html">Colocation<span class="color-b">Coligny</span></a>
+      <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse"
+        data-target="#navbarTogglerDemo01" aria-expanded="false">
+        <span class="fa fa-search" aria-hidden="true"></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Bienvenue</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="property-grid.html">L'appartement</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="agent-single.html">Formule locative</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
         </ul>
-    </nav>
-    </br>
-    </br>
-    </br>
-    <div class="conteneur" id="conteneur">
-        <div id="presentation" class="presentation">
-            <div>
-                <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5056.1816161792985!2d3.1654760259988515!3d50.68113940526129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c328f37bbeb645%3A0xd536d389c6b7c4ad!2s75%20Rue%20Coligny%2C%2059100%20Roubaix!5e0!3m2!1sen!2sfr!4v1592329463336!5m2!1sen!2sfr"
-                width="500" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                tabindex="0"></iframe>
-                <h1>Une colocation rénovée et idéalement située</h1>
-                </br>
-                </br>
-                <p>Je vous propose trois chambres individuelles dans une maison rénovée</br>
-                    idéalement située :
-                <ul>
-                    <li>proximité immédiate du lycée Jean Moulin, Swiss Life France</li>
-                    <li>5 minutes de l’école d’infirmière, station V’Lille, arrêt de tram (Jean Moulin – 26 minutes
-                        Lille
-                        flandres), tous commerces</li>
-                    <li>moins de 10 minutes du métro (Roubaix Charles de Gaulle – 18 minutes Lille Flandres), clinique
-                        Saint Jean, piscine de la Potennerie, CEPRECO…</li>
-                    <li>10 minutes de l’hôpital Henri Provo, parc Barbieux, McArthurGlenn Roubaix</li>
-                    <li>15 mn de l’EDHEC</li>
-                    <li>2 km ESAAT, ENSAIT, IMMD-LEA, IUT Roubaix, gare de Roubaix</li>
-                </ul>
-                </p>
-            </div>
-        </div>
-        </br>
-        </br>
-        <div id="RDC">
-            <h2>Rez-De-Chaussée</h2>
-            <p>
-            <h3>36m<sup>2</sup></h3>
-            Le Rez-De-Chaussée est composé de l’espace de vie commune, entièrement équipé :
-            <ul>
-                <li>salon,</li>
-                <li>salle à manger,</li>
-                <li>cuisine</li>
-                <li>Salle de bains avec lave-linge, sèche-linge…</li>
-            </ul></br>
-            Meuble : table de salon, TV écran plat, accès internet Wifi, pièces spacieuses.
-            </p>
-            <h2>Images du Rez-De-Chaussée</h2>
-            <div class=" overlay-image _b1 "><a href="/images/1 (1).jpg"
-                    onclick="window.open(this.href); return false;">
-                    <img class=" image _b2 " src="/images/1 (1).jpg" alt="Salle de bains" />
-                    <div class=" hover _b3 ">
-                        <div class=" text _2 ">Salle de bains</div>
-                    </div>
-                </a>
-            </div>
-            <div class=" overlay-image _b1 "><a href="/images/1 (2).jpg"
-                    onclick="window.open(this.href); return false;">
-                    <img class=" image _b2 " src="/images/1 (2).jpg" alt="Salle de bains" />
-                    <div class=" hover _b3 ">
-                        <div class=" text _2 ">Toilettes</div>
-                    </div>
-                </a>
-            </div>
-            <div class=" overlay-image _b1 "><a href="/images/1 (3).jpg"
-                    onclick="window.open(this.href); return false;">
-                    <img class=" image _b2 " src="/images/1 (3).jpg" alt="Salle de bains" />
-                    <div class=" hover _b3 ">
-                        <div class=" text _2 ">Salle de bains</div>
-                    </div>
-                </a>
-            </div>
-            <div class=" overlay-image _b1 "><a href="/images/1 (4).jpg"
-                    onclick="window.open(this.href); return false;">
-                    <img class=" image _b2 " src="/images/1 (4).jpg" alt="Cuisine" />
-                    <div class=" hover _b3 ">
-                        <div class=" text _2 ">Cuisine</div>
-                    </div>
-                </a>
-            </div>
-            <div class=" overlay-image _b1 "><a href="/images/1 (5).jpg"
-                    onclick="window.open(this.href); return false;">
-                    <img class=" image _b2 " src="/images/1 (5).jpg" alt="Cuisine" />
-                    <div class=" hover _b3 ">
-                        <div class=" text _2 ">Cuisine</div>
-                    </div>
-                </a>
-            </div>
-            <div class=" overlay-image _b1 "><a href="/images/1 (6).jpg"
-                    onclick="window.open(this.href); return false;">
-                    <img class=" image _b2 " src="/images/1 (6).jpg" alt="Cuisine" />
-                    <div class=" hover _b3 ">
-                        <div class=" text _2 ">Cuisine</div>
-                    </div>
-                </a>
-            </div>
-            <div class=" overlay-image _b1 "><a href="/images/1 (7).jpg"
-                    onclick="window.open(this.href); return false;">
-                    <img class=" image _b2 " src="/images/1 (7).jpg" alt="Salon" />
-                    <div class=" hover _b3 ">
-                        <div class=" text _2 ">Salon - Coin TV</div>
-                    </div>
-                </a>
-            </div>
-            <div class=" overlay-image _b1 "><a href="/images/1 (9).jpg"
-                    onclick="window.open(this.href); return false;">
-                    <img class=" image _b2 " src="/images/1 (9).jpg" alt="Salon" />
-                    <div class=" hover _b3 ">
-                        <div class=" text _2 ">Salon - Salle à manger</div>
-                    </div>
-                </a>
-            </div>
-            </br>
-        </div>
-        <hr>
-        </br></br>
+      </div>
 
-        <div id="Ie">
-            <h2>Premier Etage</h2>
-            <p>
-                On y trouvera:
-            <ul>
-                <li>la chambre 1 de <strong>11,5m<sup>2</sup></strong></li>
-                <li>un dressing équipé partagé entre les colocataires (rangement de linge, vêtements, valises…)</li>
-            </ul>
-            </p>
-            <h2>Images du premier étage</h2>
-            <div class=" overlay-image _b1 "><a href="/images/1 (10).jpg"
-                    onclick="window.open(this.href); return false;">
-                    <img class=" image _b2 " src="/images/1 (10).jpg" alt="chambre 1" />
-                    <div class=" hover _b3 ">
-                        <div class=" text _2 ">Chambre 1 du premier étage</div>
-                    </div>
-                </a>
-            </div>
-            <div class=" overlay-image _b1 "><a href="/images/1 (11).jpg"
-                    onclick="window.open(this.href); return false;">
-                    <img class=" image _b2 " src="/images/1 (11).jpg" alt="chambre 1" />
-                    <div class=" hover _b3 ">
-                        <div class=" text _2 ">Chambre 1 du premier étage</div>
-                    </div>
-                </a>
-            </div>
-            </br>
-        </div>
-        <hr>
-        </br></br>
-
-        <div id="IIe">
-            <h2>Deuxième Etage</h2>
-            <p>
-                On y trouvera:
-            <ul>
-                <li>la chambre 2 de <strong>10 m<sup>2</sup></strong></li>
-                <li>la chambre 3 de <strong>10 m<sup>2</sup></strong> </li>
-            </ul>
-            Chaque chambre est équipée d’un vrai lit ou d’un clic-clac haut de gamme, d’un bureau, d’une chaise
-            et de rangements.
-            </p>
-            <h2>Images du deuxième étage</h2>
-            <div class=" overlay-image _b1 "><a href="/images/1 (12).jpg"
-                    onclick="window.open(this.href); return false;">
-                    <img class=" image _b2 " src="/images/1 (12).jpg" alt="Chambre 2" />
-                    <div class=" hover _b3 ">
-                        <div class=" text _2 ">Chambre 2</div>
-                    </div>
-                </a>
-            </div>
-            <div class=" overlay-image _b1 "><a href="/images/1 (13).jpg"
-                    onclick="window.open(this.href); return false;">
-                    <img class=" image _b2 " src="/images/1 (13).jpg" alt="Chambre 3" />
-                    <div class=" hover _b3 ">
-                        <div class=" text _2 ">Chambre 3</div>
-                    </div>
-                </a>
-            </div>
-            </br>
-        </div>
-        <hr>
-        </br></br>
-
-        <h1 class="offreTitre">Offre de location</h1>
-        <div id="locUnique">
-            <h2><s>Bail location unique :</s></h2>
-            <p><s>Cette option est idéale si vous souhaitez partager la colocation avec vos
-                ami(e)s et participer au choix de vos colocataires.</br>
-                Loyer total : 1050 euros charges comprises (électricité, eau froide et chaude, chauffage et l’accès WIFI
-                sont inclus.)</s></p>
-            <p>Reste une chambre à louer, 340 euros tout compris. Les deux autres colocataires sont un étudiant en première année à l'IFSI et un étudiant en seconde année à l'EDHEC.</p>
-        </div>
-        <!-- <div id="locIndiv">
-            <h2>Bail location meublé individuel :</h2>
-            <p>Bail location meublé individuel. </br>
-                Loyer : 380 euros charges comprises.</br>
-                Possibilité d’option pour l’entretien des parties communes en supplément.</p>
-        </div> -->
-        <p>Éligible APL / ALS. Agrément CROUS en cours d’obtention.</p>
-        <div id="contact">
-            <h2 class="offreTitre">Contact</h2>
-            <p> Par téléphone : <a href="tel:+33621102324">06.21.10.23.24</a></p>
-        </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    <script src="accueil.js"></script>
-</body>
+  </nav>
+  <!--/ Nav End /-->
 
+  <!--/ Carousel Star /-->
+  <div class="intro intro-carousel">
+    <div id="carousel" class="owl-carousel owl-theme">
+      <div class="carousel-item-a intro-item bg-image" style="background-image: url(NEW/RDC/SEJOUR/sejour3.jfif)">
+        <div class="overlay overlay-a"></div>
+        <div class="intro-content display-table">
+          <div class="table-cell">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8">
+                  <div class="intro-body">
+                    <p class="intro-title-top">Roubaix, Nord
+                      <br>59100</p>
+                      <h1 class="intro-title mb-4">
+                        <span class="color-b">75 </span> Rue
+                        <br> Coligny </h1>
+                    <p class="intro-subtitle intro-price">
+                      <a href="contact.html"><span class="price-a">A louer | Disponible</span></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item-a intro-item bg-image" style="background-image: url(NEW/RDC/CUISINE/photo6.jfif)">
+        <div class="overlay overlay-a"></div>
+        <div class="intro-content display-table">
+          <div class="table-cell">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8">
+                  <div class="intro-body">
+                    <p class="intro-title-top">Rentrée
+                      <br> 2021</p>
+                    <h1 class="intro-title mb-4">
+                      <span class="color-b">Votre logement </span> à 
+                      <br> Roubaix </h1>
+                    <p class="intro-subtitle intro-price">
+                      <a href="contact.html"><span class="price-a">A louer | Disponible</span></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item-a intro-item bg-image" style="background-image: url(NEW/colocation.jpg)">
+        <div class="overlay overlay-a"></div>
+        <div class="intro-content display-table">
+          <div class="table-cell">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8">
+                  <div class="intro-body">
+                    <p class="intro-title-top">Rénovée et
+                      <br> idéalement située</p>
+                    <h1 class="intro-title mb-4">
+                      <span class="color-b">Coloc</span>ation</h1>
+                    <p class="intro-subtitle intro-price">
+                      <a href="contact.html"><span class="price-a">A louer | Disponible</span></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Carousel end /-->
+
+  <!--/ Services Star /-->
+  <section class="section-services section-t8">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-wrap d-flex justify-content-between">
+            <div class="title-box">
+              <h2 class="title-a">Organisation de l'appartement</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card-box-c foo">
+            <div class="card-header-c d-flex">
+              <div class="card-box-ico">
+                <span class="fa fa-tv"></span>
+              </div>
+              <div class="card-title-c align-self-center">
+                <h2 class="title-c">Rez-De-Chaussée</h2>
+              </div>
+            </div>
+            <div class="card-body-c">
+              <p class="content-c">
+                <b>36 m<sup>2</sup></b>. Le Rez-De-Chaussée est composé de l’espace de vie commune, entièrement équipé :
+                 salon, salle à manger, cuisine, salle de bain.
+              </p>
+            </div>
+            <div class="card-footer-c">
+              <a href="property-grid.html" class="link-c link-icon">Voir
+                <span class="ion-ios-arrow-forward"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-box-c foo">
+            <div class="card-header-c d-flex">
+              <div class="card-box-ico">
+                <span class="fa fa-bed"></span>
+              </div>
+              <div class="card-title-c align-self-center">
+                <h2 class="title-c">Premier étage</h2>
+              </div>
+            </div>
+            <div class="card-body-c">
+              <p class="content-c">
+                On y trouvera la chambre 1 de <b>11,5m<sup>2</sup></b>, un dressing équipé partagé entre les colocataires (rangement de linge, vêtements, valises…)
+              </p>
+            </div>
+            <div class="card-footer-c">
+              <a href="property-grid.html" class="link-c link-icon">Voir
+                <span class="ion-ios-arrow-forward"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-box-c foo">
+            <div class="card-header-c d-flex">
+              <div class="card-box-ico">
+                <span class="fa fa-home"></span>
+              </div>
+              <div class="card-title-c align-self-center">
+                <h2 class="title-c">Deuxième Etage</h2>
+              </div>
+            </div>
+            <div class="card-body-c">
+              <p class="content-c">
+                On y trouvera la chambre 2 de <b>10 m<sup>2</sup></b> , la chambre 3 de <b>10 m<sup>2</sup></b>
+                Chaque chambre est équipée d’un vrai lit ou d’un clic-clac haut de gamme, d’un bureau, d’une chaise et de rangements.
+              </p>
+            </div>
+            <div class="card-footer-c">
+              <a href="property-grid.html" class="link-c link-icon">Voir
+                <span class="ion-ios-arrow-forward"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Services End /-->
+
+  <!--/ Property Star /-->
+  <section class="section-property section-t8">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-wrap d-flex justify-content-between">
+            <div class="title-box">
+              <h2 class="title-a">Images</h2>
+            </div>
+            <div class="title-link">
+              <a href="property-grid.html">Voir toutes les images
+                <span class="ion-ios-arrow-forward"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="property-carousel" class="owl-carousel owl-theme">
+        <div class="carousel-item-b">
+          <div class="card-box-a card-shadow">
+            <div class="img-box-a">
+              <img src="NEW/RDC/SDB/sdb1.jfif" alt="" class="img-a img-fluid">
+            </div>
+            <div class="card-overlay">
+              <div class="card-overlay-a-content">
+                <div class="card-header-a">
+                  <h2 class="card-title-a">
+                    <a href="SDB-single.html">Salle 
+                      <br /> de bains</a>
+                  </h2>
+                </div>
+                <div class="card-body-a">
+                  <a href="SDB-single.html" class="link-a">Voir
+                    <span class="ion-ios-arrow-forward"></span>
+                  </a>
+                </div>
+                <div class="card-footer-a">
+                  <ul class="card-info d-flex justify-content-around">
+                    <li>
+                      <h4 class="card-info-title">Area</h4>
+                      <span>11m
+                        <sup>2</sup>
+                      </span>
+                    </li>
+                    <li>
+                      <h4 class="card-info-title">Lave-Linge</h4>
+                      <span>1</span>
+                    </li>
+                    <li>
+                      <h4 class="card-info-title">Sèche-linge</h4>
+                      <span>1</span>
+                    </li>
+                    <li>
+                      <h4 class="card-info-title">Baignoire</h4>
+                      <span>1</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item-b">
+          <div class="card-box-a card-shadow">
+            <div class="img-box-a">
+              <img src="NEW/ETAGE2/CHAMBRE2/chambre22.jfif" alt="" class="img-a img-fluid">
+            </div>
+            <div class="card-overlay">
+              <div class="card-overlay-a-content">
+                <div class="card-header-a">
+                  <h2 class="card-title-a">
+                    <a href="chambre2-single.html">Chambre  
+                      <br /> 2</a>
+                  </h2>
+                </div>
+                <div class="card-body-a">
+                  <a href="chambre2-single.html" class="link-a">Voir
+                    <span class="ion-ios-arrow-forward"></span>
+                  </a>
+                </div>
+                <div class="card-footer-a">
+                  <ul class="card-info d-flex justify-content-around">
+                    <li>
+                      <h4 class="card-info-title">Area</h4>
+                      <span>10m
+                        <sup>2</sup>
+                      </span>
+                    </li>
+                    <li>
+                      <h4 class="card-info-title">Lit</h4>
+                      <span>1</span>
+                    </li>
+                    <li>
+                      <h4 class="card-info-title">Chaise de bureau</h4>
+                      <span>1</span>
+                    </li>
+                    <li>
+                      <h4 class="card-info-title">Rangements</h4>
+                      <span>Oui</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item-b">
+          <div class="card-box-a card-shadow">
+            <div class="img-box-a">
+              <img src="NEW/ETAGE2/CHAMBRE3/chambre31.jfif" alt="" class="img-a img-fluid">
+            </div>
+            <div class="card-overlay">
+              <div class="card-overlay-a-content">
+                <div class="card-header-a">
+                  <h2 class="card-title-a">
+                    <a href="chambre3-single.html">Chambre  
+                      <br /> 3</a>
+                  </h2>
+                </div>
+                <div class="card-body-a">
+                  <a href="chambre3-single.html" class="link-a">Voir
+                    <span class="ion-ios-arrow-forward"></span>
+                  </a>
+                </div>
+                <div class="card-footer-a">
+                  <ul class="card-info d-flex justify-content-around">
+                    <li>
+                      <h4 class="card-info-title">Area</h4>
+                      <span>10m
+                        <sup>2</sup>
+                      </span>
+                    </li>
+                    <li>
+                      <h4 class="card-info-title">Lit</h4>
+                      <span>1</span>
+                    </li>
+                    <li>
+                      <h4 class="card-info-title">Chaise de bureau</h4>
+                      <span>1</span>
+                    </li>
+                    <li>
+                      <h4 class="card-info-title">Rangements</h4>
+                      <span>Oui</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item-b">
+          <div class="card-box-a card-shadow">
+            <div class="img-box-a">
+              <img src="NEW/RDC/SEJOUR/sejour4.jfif" alt="" class="img-a img-fluid">
+            </div>
+            <div class="card-overlay">
+              <div class="card-overlay-a-content">
+                <div class="card-header-a">
+                  <h2 class="card-title-a">
+                    <a href="salon-single.html">Salon
+                      <br /> Salle à manger</a>
+                  </h2>
+                </div>
+                <div class="card-body-a">
+                  <a href="salon-single.html" class="link-a">Voir
+                    <span class="ion-ios-arrow-forward"></span>
+                  </a>
+                </div>
+                <div class="card-footer-a">
+                  <ul class="card-info d-flex justify-content-around">
+                    <li>
+                      <h4 class="card-info-title">Area</h4>
+                      <span>14m
+                        <sup>2</sup>
+                      </span>
+                    </li>
+                    <li>
+                      <h4 class="card-info-title">TV</h4>
+                      <span>1</span>
+                    </li>
+                    <li>
+                      <h4 class="card-info-title">Wifi</h4>
+                      <span>Oui</span>
+                    </li>
+                    <li>
+                      <h4 class="card-info-title">Canapé</h4>
+                      <span>1</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+  <!--/ Property End /-->
+
+  <!--/ footer Star /-->
+  <section class="section-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-4">
+          <div class="widget-a">
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand">Contact</h3>
+            </div>
+            <div class="w-body-a">
+              <p class="w-text-a color-text-a">
+                Éligible APL / ALS. Agrément CROUS en cours d’obtention.
+              </p>
+            </div>
+            <div class="w-footer-a">
+              <ul class="list-unstyled">
+                <li class="color-a">
+                  <span class="color-text-a">Téléphone .</span> 06.21.10.23.24</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="nav-footer">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#">Bienvenue</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">L'appartement</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Formules locatives</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="socials-a">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-dribbble" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="credits">
+            <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=EstateAgency
+            -->
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--/ Footer End /-->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/scrollreveal/scrollreveal.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
 </html>
